@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Cédric - Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Animation - présentation-->
+
+    <section class="hero">
+      <!-- ------animation SVG-------- -->
+
+      <div class="animation-une">
+        <ul class="forme">
+          <li><img src="./images/html5.svg" alt="logo html" /></li>
+          <li><img src="./images/css3.svg" alt="logo css3" /></li>
+          <li><img src="./images/javascript.svg" alt="logo javascript" /></li>
+          <li><img src="./images/react.svg" alt="logo react" /></li>
+          <li><img src="./images/git.svg" alt="logo github" /></li>
+        </ul>
+      </div>
+      <div class="animation-deux">
+        <ul class="forme">
+          <li>
+            <img src="./images/visualstudio.svg" alt="logo visualstudiocode" />
+          </li>
+          <li><img src="./images/coding.svg" alt="logo coding" /></li>
+          <li><img src="./images/sass.svg" alt="logo sass" /></li>
+          <li><img src="./images/node-js.svg" alt="logo node-js" /></li>
+          <li><img src="./images/typescript.svg" alt="logo typescript" /></li>
+        </ul>
+      </div>
+
+      <!-- --------fin------------ -->
+
+      <nav>
+        <span class="logo"></span>
+        <ul id="nav-list">
+          <li><a href="#about-me">Présentation</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1>Dubois Cédric</h1>
+          <p id="job-text">Je suis</p>
+          <div class="button"><a href="#about-me">Présentation</a></div>
+        </div>
+        <div class="container-socials">
+          <div class="socials">
+            <div>
+              <a class="social" href="https://www.twitter.com">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com" class="social">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com" class="social">
+                <svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com" class="social">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 presentation-->
+    <div class="anim" id="about-me">
+      <h3>Présentation</h3>
+      <p>
+        Bonjour, Je m'appelle Dubois Cédric, et je suis développeur front-end et
+        Web Designer autoditacte.
+      </p>
+      <div class="photo"></div>
+      <div class="cv">Télécharger mon CV</div>
+      <div class="nuage"></div>
+      <div class="nuage2"></div>
+      <div class="soleil"></div>
+      <div class="arbre"></div>
+      <div class="ballon"></div>
+      <div class="montagne"></div>
+    </div>
+    <!-- projets -->
+    <section class="sub-section-alternative" id="projects">
+      <!-- section 3 projects -->
+      <h2 class="title-projects">Mes Projets</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            src="./images/site-indo.jpeg"
+            class="project-image"
+            alt="Project One Image"
+          />
+          <h3>Projet Un</h3>
+          <p class="subtext">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+            assumenda dignissimos, sunt corrupti veniam inventore.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com"
+              ><img src="./images/github.png" alt="logo github"
+            /></a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/projet2.jpeg"
+            class="project-image"
+            alt="Project Two Image"
+          />
+          <h3>Projet Deux</h3>
+          <p class="subtext">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt sequi
+            in cum perspiciatis tempore accusamus.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com"
+              ><img src="./images/github.png" alt="logo github"
+            /></a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/guitarist.jpeg"
+            class="project-image"
+            alt="Project Three Image"
+          />
+          <h3>Projet trois</h3>
+          <p class="subtext">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequuntur aperiam quisquam autem expedita maiores nobis.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com"
+              ><img src="./images/github.png" alt="logo github"
+            /></a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/projet4.jpeg"
+            class="project-image"
+            alt="Project Four Image"
+          />
+          <h3>Projet quatre</h3>
+          <p class="subtext">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
+            expedita hic officiis vero dolorum accusamus, mollitia libero
+            obcaecati.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com"
+              ><img src="./images/github.png" alt="logo github"
+            /></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <section class="testimonials" id="testimonials">
+      <div class="montagne2"></div>
+      <h2 class="title-testimonials">Les témoignages</h2>
+      <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked />
+        <input type="radio" name="slider" id="slide2" />
+        <input type="radio" name="slider" id="slide3" />
+        <input type="radio" name="slider" id="slide4" />
+        <div id="slides">
+          <div id="overflow">
+            <div class="inner">
+              <div class="slide slide_1">
+                <div class="slide-content">
+                  <img src="./images/avatar-cedric.svg" width="100" alt="" />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat nesciunt rerum totam, asperiores quibusdam provident
+                    beatae voluptas recusandae. Quisquam voluptatum explicabo
+                    vitae, velit reiciendis esse.
+                  </p>
+                  <h3>John Doe</h3>
+                  <h4>Lorem, ipsum dolor.</h4>
+                </div>
+              </div>
+              <div class="slide slide_2">
+                <div class="slide-content">
+                  <img src="./images/femme-rose.svg" width="100" alt="" />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat nesciunt rerum totam, asperiores quibusdam provident
+                    beatae voluptas recusandae. Quisquam voluptatum explicabo
+                    vitae, velit reiciendis esse.
+                  </p>
+                  <h3>Amy White</h3>
+                  <h4>
+                    Créateur du programme Harcoders pour devenir Développeur Web
+                    Pro.
+                  </h4>
+                </div>
+              </div>
+              <div class="slide slide_3">
+                <div class="slide-content">
+                  <img src="./images/chef-cuisine.svg" width="100" alt="" />
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Magnam debitis numquam sapiente ratione asperiores neque
+                    voluptas distinctio soluta ea, minus ipsam, reiciendis
+                    doloribus adipisci libero voluptates temporibus possimus
+                    quis pariatur?
+                  </p>
+                  <h3>Chef Dupont</h3>
+                  <h4>Lorem, ipsum dolor.</h4>
+                </div>
+              </div>
+              <div class="slide slide_4">
+                <div class="slide-content">
+                  <img src="./images/femme1.svg" width="100" alt="" />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque natus debitis consequatur aliquid ullam! Placeat
+                    nihil voluptatem quidem, quaerat sequi deleniti a, nulla
+                    totam explicabo minima, architecto sed porro ullam.
+                  </p>
+                  <h3>Marie Designer.</h3>
+                  <h4>Lorem, ipsum dolor.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+      </div>
+      <div class="container"></div>
+    </section>
+
+    <!-- section services -->
+
+    <h2 class="titre-services">Mes services</h2>
+
+    <section id="services">
+      <!-- service 1 -->
+      <div class="carte-service carte-une">
+        <h3>Game Web</h3>
+        <p class="infos-cartes">
+          <img
+            src="./images/maquette.png"
+            alt="création de maquette web avec photoshop"
+            class="img-info-carte"
+          />
+        </p>
+        <p class="infos-service">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+          assumenda quae quisquam iure, soluta asperiores.
+        </p>
+      </div>
+
+      <!-- service 2  -->
+
+      <div class="carte-service carte-deux">
+        <h3>Web Design</h3>
+        <p class="infos-cartes">
+          <img
+            src="./images/creation-de-sites-web.png"
+            alt="création de maquette web avec photoshop"
+            class="img-info-carte"
+          />
+        </p>
+        <p class="infos-service">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+          necessitatibus sapiente architecto ex dolorem aliquid!
+        </p>
+      </div>
+
+      <!-- service 3 -->
+
+      <div class="carte-service carte-trois">
+        <h3>Web front-end</h3>
+        <p class="infos-cartes">
+          <img
+            src="./images/developpement-web.png"
+            alt="création de site web front-end"
+            class="img-info-carte"
+          />
+        </p>
+        <p class="infos-service">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          autem ullam reprehenderit ipsa, eveniet vitae?
+        </p>
+      </div>
+    </section>
+
+    <!-- progression barres en pourcentage -->
+
+    <div class="skills_section">
+      <div class="skills_head">
+        <h2>Mes <span>Compétences</span></h2>
+        <br />
+        <p>Voici mes compétences actuelles</p>
+      </div>
+
+      <div class="skills_main">
+        <div class="skill_bar">
+          <div class="info">
+            <p>HTML</p>
+            <p>90%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>85%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>SASS</p>
+            <p>80%</p>
+          </div>
+          <div class="bar">
+            <span class="sass"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>JavaScript</p>
+            <p>80%</p>
+          </div>
+          <div class="bar">
+            <span class="js"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>React js</p>
+            <p>75%</p>
+          </div>
+          <div class="bar">
+            <span class="react"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Node js</p>
+            <p>70%</p>
+          </div>
+          <div class="bar">
+            <span class="node"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Typescript</p>
+            <p>65%</p>
+          </div>
+          <div class="bar">
+            <span class="express"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>PHP</p>
+            <p>60%</p>
+          </div>
+          <div class="bar">
+            <span class="mongo"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------formulaire------------- -->
+
+    <section id="contact">
+      <h2 class="titre-contact">Contactez-moi</h2>
+      <p class="gift">
+        <img src="./images/emot20.gif" alt="" width="100" />
+      </p>
+      <form action="#">
+        <label for="prenom">PRENOM</label>
+        <input type="text" name="prenom" id="prenom" required />
+
+        <label for="nom">NOM</label>
+        <input type="text" name="nom" id="nom" required />
+
+        <label for="txt-area">MESSAGE</label>
+        <textarea id="txt-area" required></textarea>
+
+        <button type="submit" class="form-btn">Envoyez</button>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="contact">
+        <h5>Contact :</h5>
+        <p><i class="fa-solid fa-contact-card"></i>Contactez-moi</p>
+        <p><i class="fa-solid fa-phone"></i>Tél : 07 25 12 20 22</p>
+        <p><i class="fa-solid fa-globe"></i>ZenCodeCD@gmail.com</p>
+        <p>
+          <i class="fa-brands fa-linkedin-in"></i>www.linkedin.com/in/zen-code
+        </p>
+      </div>
+      <div class="navigation">
+        <h5>A propos :</h5>
+        <p><i class="fa-solid fa-house"></i><a href="#">Home</a></p>
+        <p>
+          <i class="fa-solid fa-user"></i><a href="#about-me">Présentation</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-diagram-project"></i
+          ><a href="#projects">Projets</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-users"></i
+          ><a href="#testimonials">Témoignages</a>
+        </p>
+      </div>
+      <div class="techno">
+        <h5>Technologies :</h5>
+        <p><i class="fa-brands fa-html5"></i>HTML 5</p>
+        <p><i class="fa-brands fa-css3-alt"></i>CSS 3</p>
+        <p><i class="fa-brands fa-js"></i>JavaScript Vanilla</p>
+        <p>
+          <img src="./images/greensock.svg" alt="logo GreenSock" />
+          <a href="https://greensock.com/">GreenSock</a>
+        </p>
+      </div>
+    </footer>
+    <div class="footer">
+      Challenge de Cédric de ZenCode - Tous Droits réservés &copy; 2023
+    </div>
+
+    <!-- script -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
